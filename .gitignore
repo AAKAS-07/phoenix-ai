@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build output
+dist/
+client/dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.new
+server/.env
+client/.env
+
+# Deployment
+.vercel/
+.render/
+coverage/
+
+# Uploads & temporary files
+uploads/
+server/uploads/
+*.log
+
+# Operating system / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

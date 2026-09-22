@@ -1,0 +1,15 @@
+{
+  "name": "phoenix-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node run-all.js",
+    "dev": "node run-all.js",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0"
+  }
+}

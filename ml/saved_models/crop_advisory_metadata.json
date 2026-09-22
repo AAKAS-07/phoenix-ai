@@ -1,0 +1,96 @@
+{
+  "model_version": "1.0.0",
+  "trained_at_utc": "2026-09-11 10:25:33 UTC",
+  "best_model": "RandomForest",
+  "labels": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "valid_ranges": {
+    "N": [
+      0.0,
+      200.0
+    ],
+    "P": [
+      0.0,
+      200.0
+    ],
+    "K": [
+      0.0,
+      300.0
+    ],
+    "temperature": [
+      5.0,
+      50.0
+    ],
+    "humidity": [
+      5.0,
+      100.0
+    ],
+    "ph": [
+      3.0,
+      10.0
+    ],
+    "rainfall": [
+      0.0,
+      800.0
+    ]
+  },
+  "low_confidence_threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.9932,
+    "precision_macro": 0.9935,
+    "recall_macro": 0.9932,
+    "f1_macro": 0.9932,
+    "f1_weighted": 0.9932,
+    "mean_confidence": 0.9532
+  },
+  "cv_results": {
+    "RandomForest": {
+      "mean_f1": 0.9959491466388017,
+      "std_f1": 0.0065493406288194955
+    },
+    "ExtraTrees": {
+      "mean_f1": 0.991912069799481,
+      "std_f1": 0.009780249665276842
+    },
+    "GradientBoosting": {
+      "mean_f1": 0.9814109618392154,
+      "std_f1": 0.010702058338594278
+    },
+    "DecisionTree": {
+      "mean_f1": 0.9899282633075737,
+      "std_f1": 0.00363473128699581
+    }
+  },
+  "data_source": "Kaggle Crop Recommendation Benchmark (2,200 rows, 22 crops)"
+}
